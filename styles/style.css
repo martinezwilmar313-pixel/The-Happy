@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    background-color: rgb(255, 213, 0);
+    gap: 59%;
+}
+
+nav img{
+    padding: 10px 60px;
+}
+
+.barra{
+    display: flex;
+    gap: 25%;
+}
+
+.barra li{
+    padding-top: 28px;
+    list-style: none;
+}
+
+.barra a{
+    color: black;
+    text-decoration: none;
+}
