@@ -349,24 +349,55 @@ nav img{
     border: none;
 }
 
-footer{
-    background-color: #000;
-    color: #fff;
+footer {
+  background-color: #000000;
+  color: rgb(245, 191, 30);
+  padding: 50px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
-footer img{
-    padding: 60px; 
+
+footer > img {
+  width: 120px;
 }
 
-.doble{
-    display: flex;
-    padding: 60px;
-    gap: 30px;
-    font-size: 20px;
-    color: rgb(255, 208, 0);
+.doble {
+  display: flex;
+  gap: 100px;
 }
 
-.ultimo{
-    display: flex;
-    gap: 30%;
+.doble p {
+  margin: 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.ultimo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.ultimo p {
+  font-size: 20px;
+}
+
+.ultimo hr {
+  flex: 1; 
+  margin: 0 30px;
+  border: none;
+  height: 1px;
+  background-color: rgb(255, 255, 255);
+}
+
+.ultimo div {
+  display: flex; 
+  gap: 20px;
+}
+
+.ultimo img{
+    color: rgb(245, 191, 30);
 }
