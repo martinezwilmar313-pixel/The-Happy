@@ -401,3 +401,1346 @@ footer > img {
 .ultimo img{
     color: rgb(245, 191, 30);
 }
+
+
+
+@media (max-width: 1279px) {
+
+    nav {
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        padding: 10px 35px;
+    }
+
+    nav img {
+        width: 120px;
+        height: auto;
+        padding: 0;
+    }
+
+    .barra {
+        gap: 35px;
+    }
+
+    .barra li {
+        padding-top: 10px;
+    }
+
+    .uno {
+        align-items: center;
+        gap: 30px;
+        padding: 40px 50px;
+    }
+
+    .uno > img {
+        width: 45%;
+        height: auto;
+        margin: 0;
+    }
+
+    .unomini {
+        flex: 1;
+        min-width: 0;
+        margin: 0;
+    }
+
+    .unomini h1 {
+        font-size: 55px;
+    }
+
+    .unomini p {
+        font-size: 17px;
+    }
+
+    .amarillo {
+        width: auto;
+        padding: 12px 25px;
+    }
+
+    .dos {
+        align-items: center;
+        gap: 40px;
+        margin: 0 60px;
+        padding: 55px 40px;
+    }
+
+    .dosmini {
+        flex: 1;
+        min-width: 0;
+        margin: 0;
+    }
+
+    .dosmini h2 {
+        font-size: 45px;
+    }
+
+    .dos img {
+        width: 20%;
+        height: auto;
+    }
+
+    .tres {
+        padding: 70px 60px;
+    }
+
+    .tres h1 {
+        font-size: 70px;
+    }
+
+    .tresmini {
+        align-items: center;
+        gap: 30px;
+    }
+
+    .tresmini p {
+        font-size: 20px;
+        padding-right: 0;
+    }
+
+    .tresmini br {
+        display: none;
+    }
+
+    .tresmini img {
+        max-width: 50%;
+        height: auto;
+    }
+
+    .botoncito {
+        position: static;
+        width: auto;
+        padding: 12px 30px;
+        margin-top: 25px;
+    }
+
+    .cuatro {
+        padding: 80px 60px;
+    }
+
+    .cuatromini {
+        align-items: center;
+    }
+
+    .cuatromini > img {
+        width: 45%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .texto {
+        flex: 1;
+        min-width: 0;
+        padding: 35px;
+    }
+
+    .cuatromini h1 {
+        font-size: 55px;
+    }
+
+    .cuatromini p {
+        font-size: 18px;
+    }
+
+    .cuatromini p br {
+        display: none;
+    }
+
+    .botonlado {
+        transform: none;
+        width: auto;
+        height: auto;
+        padding: 12px 25px;
+        margin: 20px 0;
+    }
+
+    .texto img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .cinco {
+        padding: 60px 50px;
+    }
+
+    .cinco br {
+        display: none;
+    }
+
+    .cinco > img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .otro {
+        width: auto;
+        padding: 12px 25px;
+    }
+
+    .seis {
+        align-items: center;
+        gap: 40px;
+        padding: 65px 60px;
+    }
+
+    .seis > img {
+        width: 45%;
+        height: auto;
+    }
+
+    .seismini {
+        flex: 1;
+        min-width: 0;
+        padding: 0;
+    }
+
+    .seismini p {
+        font-size: 18px;
+    }
+
+    .otroo {
+        width: auto;
+        padding: 12px 25px;
+    }
+
+    .siete {
+        align-items: center;
+        gap: 35px;
+        padding: 60px;
+    }
+
+    .sietemini {
+        flex: 1;
+        min-width: 0;
+        padding-top: 0;
+    }
+
+    .siete h1 {
+        font-size: 55px;
+    }
+
+    .siete p {
+        font-size: 18px;
+    }
+
+    .siete br {
+        display: none;
+    }
+
+    .siete > img {
+        width: 40%;
+        height: auto;
+    }
+
+    .registro {
+        gap: 50px;
+        padding: 80px 60px;
+    }
+
+    .formulario {
+        box-sizing: border-box;
+        width: 50%;
+        min-width: 0;
+        padding: 50px 35px;
+    }
+
+    .fila {
+        gap: 20px;
+    }
+
+    .campo {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .formulario input,
+    .formulario textarea {
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .escrito {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .escrito h2 {
+        font-size: 45px;
+    }
+
+    .escrito p {
+        font-size: 18px;
+    }
+
+    .botonsub {
+        max-width: 100%;
+    }
+
+    .ocho > img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .sinderechos {
+        width: auto;
+        padding: 12px 30px;
+    }
+
+    footer {
+        padding: 50px 60px;
+    }
+}
+
+@media (max-width: 920px) {
+
+    nav {
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        padding: 10px 25px;
+    }
+
+    nav img {
+        width: 110px;
+        height: auto;
+        padding: 0;
+    }
+
+    .barra {
+        gap: 25px;
+    }
+
+    .barra li {
+        padding-top: 10px;
+    }
+
+    .barra a {
+        font-size: 15px;
+    }
+
+    .uno {
+        align-items: center;
+        gap: 25px;
+        padding: 40px 30px;
+    }
+
+    .uno > img {
+        width: 45%;
+        height: auto;
+        margin: 0;
+    }
+
+    .unomini {
+        flex: 1;
+        min-width: 0;
+        margin: 0;
+    }
+
+    .unomini h1 {
+        font-size: 45px;
+    }
+
+    .unomini p {
+        font-size: 16px;
+    }
+
+    .amarillo {
+        width: auto;
+        padding: 12px 25px;
+    }
+
+    .dos {
+        align-items: center;
+        gap: 25px;
+        margin: 0 35px;
+        padding: 45px 30px;
+    }
+
+    .dosmini {
+        flex: 1;
+        min-width: 0;
+        margin: 0;
+    }
+
+    .dosmini h2 {
+        font-size: 38px;
+    }
+
+    .dos img {
+        width: 20%;
+        height: auto;
+    }
+
+    .tres {
+        padding: 60px 40px;
+    }
+
+    .tres h1 {
+        font-size: 60px;
+    }
+
+    .tresmini {
+        align-items: center;
+        gap: 25px;
+    }
+
+    .tresmini p {
+        font-size: 18px;
+        padding-right: 0;
+    }
+
+    .tresmini br {
+        display: none;
+    }
+
+    .tresmini img {
+        width: 45%;
+        height: auto;
+    }
+
+    .botoncito {
+        position: static;
+        width: auto;
+        padding: 12px 25px;
+        margin-top: 20px;
+    }
+
+    .cuatro {
+        padding: 60px 35px;
+    }
+
+    .cuatromini {
+        align-items: center;
+    }
+
+    .cuatromini > img {
+        width: 45%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .texto {
+        flex: 1;
+        min-width: 0;
+        padding: 25px;
+    }
+
+    .cuatromini h1 {
+        font-size: 45px;
+    }
+
+    .cuatromini p {
+        font-size: 16px;
+    }
+
+    .cuatromini p br {
+        display: none;
+    }
+
+    .botonlado {
+        transform: none;
+        width: auto;
+        height: auto;
+        padding: 12px 25px;
+        margin: 15px 0;
+    }
+
+    .texto img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 15px;
+    }
+
+    .cinco {
+        padding: 50px 35px;
+    }
+
+    .cinco p {
+        font-size: 18px;
+    }
+
+    .cinco br {
+        display: none;
+    }
+
+    .cinco > img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .otro {
+        width: auto;
+        padding: 12px 25px;
+    }
+
+    .seis {
+        align-items: center;
+        gap: 30px;
+        padding: 55px 35px;
+    }
+
+    .seis > img {
+        width: 45%;
+        height: auto;
+    }
+
+    .seismini {
+        flex: 1;
+        min-width: 0;
+        padding: 0;
+    }
+
+    .seismini h2 {
+        font-size: 35px;
+    }
+
+    .seismini p {
+        font-size: 17px;
+        padding: 20px 0;
+    }
+
+    .otroo {
+        width: auto;
+        padding: 12px 25px;
+    }
+
+    .siete {
+        align-items: center;
+        gap: 25px;
+        padding: 50px 35px;
+    }
+
+    .sietemini {
+        flex: 1;
+        min-width: 0;
+        padding-top: 0;
+    }
+
+    .siete h1 {
+        font-size: 45px;
+        padding: 10px;
+    }
+
+    .siete p {
+        font-size: 17px;
+        padding: 15px 10px;
+    }
+
+    .siete br {
+        display: none;
+    }
+
+    .siete > img {
+        width: 40%;
+        height: auto;
+    }
+
+    .registro {
+        gap: 35px;
+        padding: 70px 40px;
+    }
+
+    .formulario {
+        box-sizing: border-box;
+        width: 55%;
+        min-width: 0;
+        padding: 40px 25px;
+    }
+
+    .fila {
+        gap: 15px;
+    }
+
+    .campo {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .formulario input,
+    .formulario textarea {
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .escrito {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .escrito h2 {
+        font-size: 40px;
+    }
+
+    .escrito p {
+        font-size: 17px;
+    }
+
+    .botonsub {
+        max-width: 100%;
+    }
+
+    .ocho p {
+        font-size: 22px;
+    }
+
+    .ocho > img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .sinderechos {
+        width: auto;
+        padding: 12px 25px;
+    }
+
+    footer {
+        padding: 45px 50px;
+    }
+
+    .doble {
+        gap: 70px;
+    }
+
+    .ultimo p {
+        font-size: 16px;
+    }
+
+    .ultimo img {
+        max-width: 30px;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+
+    nav {
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px;
+        padding: 10px 20px;
+    }
+
+    nav img {
+        width: 100px;
+        height: auto;
+        padding: 0;
+    }
+
+    .barra {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 15px;
+    }
+
+    .barra li {
+        padding-top: 10px;
+    }
+
+    .barra a {
+        font-size: 14px;
+    }
+
+    .uno {
+        align-items: center;
+        gap: 20px;
+        padding: 30px 20px;
+    }
+
+    .uno > img {
+        width: 45%;
+        height: auto;
+        margin: 0;
+    }
+
+    .unomini {
+        flex: 1;
+        min-width: 0;
+        margin: 0;
+    }
+
+    .unomini h1 {
+        font-size: 38px;
+    }
+
+    .unomini p {
+        font-size: 15px;
+    }
+
+    .amarillo {
+        width: auto;
+        padding: 12px 20px;
+    }
+
+    .dos {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+        margin: 0 25px;
+        padding: 40px 25px;
+    }
+
+    .dosmini {
+        width: 100%;
+        margin: 0;
+    }
+
+    .dosmini h2 {
+        font-size: 40px;
+    }
+
+    .dos img {
+        width: 30%;
+        height: auto;
+    }
+
+    .tres {
+        padding: 50px 30px;
+    }
+
+    .tres h1 {
+        font-size: 55px;
+    }
+
+    .tresmini {
+        align-items: center;
+        gap: 20px;
+    }
+
+    .tresmini p {
+        font-size: 17px;
+        padding-right: 0;
+    }
+
+    .tresmini br {
+        display: none;
+    }
+
+    .tresmini img {
+        width: 45%;
+        height: auto;
+    }
+
+    .botoncito {
+        position: static;
+        width: auto;
+        padding: 12px 25px;
+        margin-top: 20px;
+    }
+
+    .cuatro {
+        padding: 50px 25px;
+    }
+
+    .cuatromini {
+        align-items: center;
+    }
+
+    .cuatromini > img {
+        width: 45%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .texto {
+        min-width: 0;
+        padding: 20px;
+    }
+
+    .cuatromini h1 {
+        font-size: 40px;
+    }
+
+    .cuatromini p {
+        font-size: 15px;
+    }
+
+    .cuatromini p br {
+        display: none;
+    }
+
+    .botonlado {
+        transform: none;
+        width: auto;
+        height: auto;
+        padding: 12px 20px;
+        margin: 15px 0;
+    }
+
+    .texto img {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .cinco {
+        padding: 45px 30px;
+    }
+
+    .cinco p {
+        font-size: 17px;
+    }
+
+    .cinco br {
+        display: none;
+    }
+
+    .cinco > img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .otro {
+        width: auto;
+        padding: 12px 25px;
+    }
+
+    .seis {
+        align-items: center;
+        gap: 25px;
+        padding: 45px 30px;
+    }
+
+    .seis > img {
+        width: 45%;
+        height: auto;
+    }
+
+    .seismini {
+        min-width: 0;
+        padding: 0;
+    }
+
+    .seismini h2 {
+        font-size: 32px;
+    }
+
+    .seismini p {
+        font-size: 16px;
+        padding: 20px 0;
+    }
+
+    .otroo {
+        width: auto;
+        padding: 12px 25px;
+    }
+
+    .siete {
+        align-items: center;
+        gap: 20px;
+        padding: 40px 25px;
+    }
+
+    .sietemini {
+        min-width: 0;
+        padding-top: 0;
+    }
+
+    .siete h1 {
+        font-size: 40px;
+        padding: 10px;
+    }
+
+    .siete p {
+        font-size: 16px;
+        padding: 15px 10px;
+    }
+
+    .siete br {
+        display: none;
+    }
+
+    .siete > img {
+        width: 40%;
+        height: auto;
+    }
+
+    .registro {
+        align-items: flex-start;
+        gap: 25px;
+        padding: 50px 25px;
+    }
+
+    .formulario {
+        box-sizing: border-box;
+        width: 55%;
+        min-width: 0;
+        padding: 35px 20px;
+    }
+
+    .fila {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .campo {
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+    }
+
+    .formulario input,
+    .formulario textarea {
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .escrito {
+        width: 45%;
+        min-width: 0;
+    }
+
+    .escrito h2 {
+        font-size: 35px;
+    }
+
+    .escrito p {
+        font-size: 16px;
+    }
+
+    .botonsub {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .ocho {
+        padding: 0 25px;
+    }
+
+    .ocho p {
+        font-size: 20px;
+    }
+
+    .ocho > img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .sinderechos {
+        width: auto;
+        padding: 12px 25px;
+    }
+
+    footer {
+        padding: 40px 35px;
+    }
+
+    .doble {
+        gap: 60px;
+    }
+
+    .doble p {
+        font-size: 17px;
+    }
+
+    .ultimo {
+        gap: 15px;
+    }
+
+    .ultimo p {
+        font-size: 15px;
+    }
+
+    .ultimo hr {
+        margin: 0 15px;
+    }
+
+    .ultimo div {
+        gap: 12px;
+    }
+
+    .ultimo img {
+        max-width: 28px;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 15px 10px;
+    }
+
+    nav img {
+        width: 100px;
+        padding: 0;
+    }
+
+    .barra {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .barra li {
+        padding-top: 5px;
+    }
+
+    .barra a {
+        font-size: 13px;
+    }
+
+    .uno {
+        flex-direction: column;
+        align-items: center;
+        padding: 25px 20px;
+    }
+
+    .uno > img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 0;
+    }
+
+    .unomini {
+        margin: 25px 0;
+        width: 100%;
+    }
+
+    .unomini h1 {
+        font-size: 35px;
+    }
+
+    .unomini p {
+        font-size: 15px;
+        padding: 15px 0;
+    }
+
+    .amarillo {
+        width: auto;
+        padding: 12px 25px;
+    }
+
+    .franja {
+        background: linear-gradient(to bottom, #fff 50%, rgb(255, 206, 10) 50%);
+    }
+
+    .dos {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        margin: 0 15px;
+        padding: 30px 20px;
+    }
+
+    .dosmini {
+        margin: 0;
+        width: 100%;
+    }
+
+    .dosmini h2 {
+        font-size: 35px;
+    }
+
+    .dosmini p {
+        padding: 15px 0;
+    }
+
+    .dosmini br {
+        display: none;
+    }
+
+    .dos img {
+        width: 75%;
+        max-width: 220px;
+        height: auto;
+    }
+
+
+    .tres {
+        padding: 40px 20px;
+    }
+
+    .tres h1 {
+        font-size: 38px;
+    }
+
+    .tresmini {
+        flex-direction: column;
+    }
+
+    .tresmini p {
+        font-size: 16px;
+        padding: 15px 0;
+    }
+
+    .tresmini br {
+        display: none;
+    }
+
+    .tresmini img {
+        width: 100%;
+        height: auto;
+    }
+
+    .botoncito {
+        position: static;
+        width: auto;
+        height: auto;
+        padding: 12px 25px;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .cuatro {
+        padding: 30px 15px;
+    }
+
+    .cuatromini {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cuatromini > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .texto {
+        padding: 20px;
+        width: auto;
+    }
+
+    .cuatromini h1 {
+        font-size: 38px;
+    }
+
+    .cuatromini p {
+        font-size: 15px;
+    }
+
+    .cuatromini p br {
+        display: none;
+    }
+
+    .texto > div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .botonlado {
+        display: inline-block;
+        transform: none;
+        width: auto;
+        height: auto;
+        padding: 12px 25px;
+        margin: 15px 0;
+        font-size: 16px;
+    }
+
+    .texto img {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .cinco {
+        padding: 35px 20px;
+    }
+
+    .cinco h2 {
+        font-size: 28px;
+    }
+
+    .cinco p {
+        font-size: 15px;
+        padding: 15px 0;
+    }
+
+    .cinco br {
+        display: none;
+    }
+
+    .cinco > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .otro {
+        width: auto;
+        padding: 12px 25px;
+    }
+
+    .seis {
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+
+    .seis > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .seismini {
+        padding: 25px 0 0;
+    }
+
+    .seismini h2 {
+        font-size: 30px;
+    }
+
+    .seismini p {
+        font-size: 15px;
+        padding: 15px 0;
+    }
+
+    .otroo {
+        width: auto;
+        padding: 12px 25px;
+    }
+
+
+    .siete {
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+
+    .sietemini {
+        padding-top: 0;
+    }
+
+    .siete h1 {
+        font-size: 35px;
+        padding: 10px 0;
+    }
+
+    .siete p {
+        font-size: 15px;
+        padding: 15px 0;
+    }
+
+    .siete br {
+        display: none;
+    }
+
+    .siete > img {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .registro {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 35px;
+        padding: 30px 15px;
+    }
+
+    .formulario {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 30px 20px;
+    }
+
+    .fila {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .campo {
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+    }
+
+    .formulario input,
+    .formulario textarea {
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .formulario p {
+        font-size: 12px;
+    }
+
+    .escrito {
+        width: 100%;
+    }
+
+    .escrito h2 {
+        font-size: 35px;
+    }
+
+    .escrito p {
+        font-size: 15px;
+    }
+
+    .botonsub {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .ocho {
+        padding: 0 15px;
+    }
+
+    .ocho h1 {
+        font-size: 32px;
+    }
+
+    .ocho p {
+        font-size: 16px;
+    }
+
+    .ocho > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .sinderechos {
+        width: auto;
+        padding: 12px 25px;
+    }
+
+    footer {
+        padding: 30px 20px;
+        gap: 25px;
+    }
+
+    footer > img {
+        width: 100px;
+    }
+
+    .doble {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .doble p {
+        font-size: 15px;
+    }
+
+    .ultimo {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .ultimo p {
+        font-size: 13px;
+    }
+
+    .ultimo hr {
+        width: 100%;
+        flex: none;
+        margin: 0;
+    }
+
+    .ultimo div {
+        gap: 15px;
+    }
+
+    .ultimo img {
+        max-width: 30px;
+        height: auto;
+    }
+}
